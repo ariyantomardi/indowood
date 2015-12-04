@@ -217,10 +217,18 @@ margin-right: 20px;
   .nav > li {
       position: relative;
       display: block;
-      padding-right: 55px;
+      padding-right: 20px;
   }
   .tagline{
     text-align:right; text-transform:uppercase; position:relative; top:30%;margin-top: 50px;
   margin-right: 20px;
   }
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
