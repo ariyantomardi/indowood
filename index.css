@@ -64,7 +64,10 @@
     background-color: White;;
 }
 .logo{
-  float:right;margin-right:40px; margin-left:20px; width: 100%
+  float: right;
+/* margin-right: 40px; */
+/* margin-left: 20px; */
+width: 100%;
 }
 .dropdown-menu {
 
@@ -220,7 +223,7 @@ margin-right: 20px;
       padding-right: 20px;
   }
   .tagline{
-    text-align:right; text-transform:uppercase; position:relative; top:30%;margin-top: 50px;
+    text-align:right; text-transform:uppercase; position:relative; top:30%;margin-top: 40px;
   margin-right: 20px;
   }
 }
