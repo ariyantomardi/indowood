@@ -4,6 +4,10 @@
     height: 70vh;
     overflow: hidden;
 }*/
+a {
+  text-decoration:none;
+  color:black;
+}
 .navbar{
   margin-bottom: 0px}
 }
@@ -124,10 +128,24 @@ color:white;
 font-size:2em;
 text-shadow: 2px 2px grey;
 }
-
+.side-list li a{
+  color: black;
+  font-size:1.5em;
+  text-decoration:none;
+}
+.side-list li a:hover{
+  color: #11c7c1;
+  font-size:1.5em;
+}
 .bottom-list li a{
   color:#9e7d5c;
   font-size:0.9em;
+}
+.desc{
+  background: #F5F5F5;
+padding: 10px;
+
+margin-bottom: 20px;
 }
 .create-project{
   background-image: url("img/project-create1.png");
