@@ -10,47 +10,7 @@
 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="./app.js"></script>
-  <style>
-    /* styles unrelated to zoom */
-    * { border:0; margin:0; padding:0; }
 
-
-    /* these styles are for the demo, but are not required for the plugin */
-    .zoom {
-      display:inline-block;
-      position: relative;
-    }
-
-    /* magnifying glass icon */
-    .zoom:after {
-      content:'';
-      display:block;
-      width:33px;
-      height:33px;
-      position:absolute;
-      top:0;
-      right:0;
-      background:url(icon.png);
-    }
-
-    .zoom img {
-      display: block;
-    }
-
-    .zoom img::selection { background-color: transparent; }
-
-    #ex2 img:hover { cursor: url(grab.cur), default; }
-    #ex2 img:active { cursor: url(grabbed.cur), default; }
-  </style>
-  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-  <script src='zoom-master/jquery.zoom.js'></script>
-  <script>
-    $(document).ready(function(){
-      $('#ex1').zoom();
-      $('#ex2').zoom();
-      $('#ex3').zoom();
-    });
-  </script>
   <body>
       <div class="container">
     <nav class="navbar navbar-default">
@@ -70,8 +30,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li ><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li class="dropdown" class="active">
+            <li ><a href="about.html">ABOUT</a></li>
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCT </a>
               <ul class="dropdown-menu">
                 <li><a href="side-table.html">SIDE TABLE</a></li>
@@ -85,7 +45,7 @@
             </li>
               <li ><a href="project.html">PROJECT</a></li>
             <li><a href="new.html">WHAT'S NEW</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
+              <li class="active"><a href="contact.html">CONTACT</a></li>
           </ul>
 
 
@@ -93,59 +53,15 @@
       </div><!-- /.container-fluid -->
     </nav>
   </div>
-
     <div class="slide" style="background:#e6e6e6;">
-      <br>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <ul style="list-style: none; padding-left:0px;" class="side-list">
-              <li><a href="side-table.html" style="color:#11c7c1;">SIDE TABLE</a></li>
-              <li><a href="audio-rack.html">AUDIO RACK</a></li>
-              <li><a href="drawers.html">DRAWERS</a></li>
-                <li><a href="cofee-table.html">COFFEE TABLE</a></li>
-                  <li><a href="table.html">TABLE</a></li>
-                    <li><a href="customise.html">CUSTOMISE</a></li>
-                </ul>
-          </div>
-          <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-6">
-                  <span style="font-size: 1.3em; margin-bottom:10px;"><a href="side-table.html">Side Table</a> / Side Table 1</span>
+      <img src="img/custom-project-img1.jpg" width="100%">
+      <center><h3>INDOWOOD</h3>
+          <p style="width:50%;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <br>
+      </center>
 
-                  <span class='zoom' id='ex1'>
-                		<img src='zoom-master/daisy.jpg' width='100%' height="400px"/>
-
-                	</span>
-                  <img src='zoom-master/daisy.jpg' width='31%' style="margin-right:5px; margin-bottom:5px"/>
-                  <img src='zoom-master/daisy.jpg' width='31%' style="margin-right:5px;margin-bottom:5px"/>
-                  <img src='zoom-master/daisy.jpg' width='31%' style="margin-right:5px;margin-bottom:5px"/>
-
-
-
-                </div>
-
-
-                <div class="col-md-6">
-                    <h3>Side Table 1</h3>
-                    <h4>color</h4>
-
-                    <h4>About Procut</h4>
-                    <p>lorem ipsum dolor</p>
-
-                </div>
-
-            </div>
-
-          </div>
-        </div>
-        <!-- <span class='zoom' id='ex1'>
-      		<img src='zoom-master/daisy.jpg' width='555' height='320' alt='Daisy on the Ohoopee'/>
-
-      	</span> -->
-      </div>
-      <br>
  </div>
+ <!-- <span style="font-size: 1.5em;color: black;margin-left:10px;"><a style="text-decoration:none;color: black;"href="project.html">PROJECT </a>/ <a style="text-decoration:none;color: black;"href="past-project.html">Past Project </a>/ Custom Project</span> -->
 <br><br>
     <!-- -->
     <div class="foot">
@@ -166,6 +82,7 @@
 
 
     </div>
+
     <br>
       <br>
       <div class="footer">
