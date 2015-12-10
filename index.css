@@ -4,9 +4,28 @@
     height: 70vh;
     overflow: hidden;
 }*/
+h1{
+  font-family: futura;
+}
+h2{
+  font-family: futura;
+}
+h3{
+  font-family: futura;
+}
+h4{
+  font-family: futura;
+}
+h5{
+  font-family: futura;
+}
+p{
+  font-family: futura;
+}
 a {
   text-decoration:none;
   color:black;
+  font-family: futura;
 }
 .navbar{
   margin-bottom: 0px}
