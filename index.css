@@ -4,28 +4,37 @@
     height: 70vh;
     overflow: hidden;
 }*/
+@font-face {
+    font-family:  Futura-font;
+    src: url(font/ufonts.com_futura-condensed-medium.woff) ;
+}
 h1{
-  font-family: futura;
+  font-family: Futura-font;
 }
 h2{
-  font-family: futura;
+  font-family: Futura-font;
+
 }
 h3{
-  font-family: futura;
+font-family: Futura-font;
+
 }
 h4{
-  font-family: futura;
+  font-family: Futura-font;
+
+
 }
 h5{
-  font-family: futura;
+  font-family: Futura-font;
 }
 p{
-  font-family: futura;
+  font-family: Futura-font;
+
 }
 a {
   text-decoration:none;
   color:black;
-  font-family: futura;
+font-family: Futura-font;
 }
 .navbar{
   margin-bottom: 0px}
@@ -72,18 +81,20 @@ a {
 }
 .navbar-default .navbar-nav > li > a {
     color: #777;
-    font-size: 1.5em;
+    font-size: 2.3em;
 }
 .navbar-default .navbar-nav > li > a:hover {
     color: #11c7c1;
-    font-size: 1.5em;
+      font-size: 2.3em;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #11c7c1;
   background-color: White;;
+      font-size: 2.3em;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #11c7c1;
+      font-size: 2.3em;
     background-color: White;;
 }
 .logo{
@@ -222,7 +233,9 @@ margin-right: 20px;
   height:400px;
 }
 
-
+.about{
+  width:50%; font-size:1.2em;
+}
 
 
 @media (min-width: @screen-sm-min) {
@@ -239,6 +252,10 @@ margin-right: 20px;
 
     position: relative;
 }
+.about{
+  width:80%; font-size:1.2em;
+}
+
 .logo{
   float:right;margin-right:40px; margin-left:20px; width: 70%
 }
@@ -251,7 +268,11 @@ margin-right: 20px;
     color: #777;
     font-size: 1.2em;
 }
-
+.tagline{
+  text-align:center;
+  margin-right:0px;
+      margin-left: 20px;
+}
 }
 @media screen and (min-width: 1025px) {
   .nav > li {
